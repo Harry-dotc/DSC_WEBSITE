@@ -1,0 +1,29 @@
+.ThemeButton {
+  display: inline-block;
+  background-color: var(--google-gray-shade-1);
+  box-shadow: 0 3px 10px rgba(106, 190, 201, 0.712);
+  color: var(--google-gray-shade-8);
+  padding: 0.6rem;
+  border: none;
+  font-size: 1.2rem;
+  line-height: 0.7;
+  border-radius: 50%;
+  margin-left: 1rem;
+  transition: 0.2s all;
+}
+
+.ThemeButton:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+.ThemeButton:focus,
+.ThemeButton:active {
+  outline: none;
+}
+
+@media (max-width: 450px) {
+  .ThemeButton {
+    padding: 0.4rem;
+    font-size: 1rem;
+  }
+}

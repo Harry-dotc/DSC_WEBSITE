@@ -1,0 +1,55 @@
+.ShowcaseEvents {
+  margin-top: 70px;
+  overflow: hidden;
+  border-bottom: 1px solid var(--dark-mode-bg-4);
+  box-shadow: inset 0 -10px 20px -10px #000000;
+  background-attachment: fixed;
+  background-image: linear-gradient(
+      315deg,
+      rgba(41, 35, 61, 0.7) 0%,
+      rgba(26, 49, 65, 0.7) 74%
+    ),
+    url("../../../assets/images/eventsShowcaseDarkBG.jpg");
+  background-size: cover;
+}
+
+.ShowcaseEvents .Container {
+  max-width: 1170px;
+  margin: 0 auto;
+  font-family: "Google Sans", sans-serif;
+  height: 300px;
+  text-align: center;
+}
+.eventsHeading {
+  font-size: 56px;
+  font-weight: 400;
+  color: var(--dark-mode-text-color-1);
+  letter-spacing: normal;
+  padding: 2rem 0 2rem 0;
+  transition: 0.2s;
+}
+
+.eventsInfo {
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.2s;
+  color: var(--dark-mode-text-color-2);
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .eventsHeading {
+    font-size: 36px;
+  }
+  .eventsInfo {
+    font-size: 16px;
+    padding: 0.5rem;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 580px) {
+  .eventsInfo {
+    padding: 0 1rem;
+  }
+}

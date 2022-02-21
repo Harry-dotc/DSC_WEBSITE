@@ -1,0 +1,64 @@
+.Team {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.alumniBtn {
+  padding: 12px 30px;
+  /* text-decoration: none; */
+  color: white;
+  background: var(--google-blue);
+  border-radius: 2px;
+  display: inline-block;
+  transition: 0.2s;
+  font-size: 14px;
+  font-weight: 500;
+  transform: translateY(-1px);
+  margin-left: 44vw;
+  margin-bottom: 2rem;
+  /* margin-top: 4rem; */
+}
+
+.alumniBtn:hover {
+  background: var(--google-dark-blue);
+  /* box-shadow: -4px 4px 8px var(--button-shadow-color); */
+  border-radius: 2px;
+  color: white;
+  text-decoration: none;
+}
+
+.alumniBtn:active {
+  transform: translateY(0px);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .alumniBtn {
+    margin-left: 42%;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .alumniBtn {
+    margin-left: 39%;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .alumniBtn {
+    margin-left: 31%;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .alumniBtn {
+    margin-left: 29%;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .alumniBtn {
+    margin-left: 27%;
+  }
+}

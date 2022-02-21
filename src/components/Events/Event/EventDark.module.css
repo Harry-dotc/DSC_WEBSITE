@@ -1,0 +1,119 @@
+.Event {
+  font-family: "Google Sans", sans-serif;
+  /* height: 530px; */
+  width: 380px;
+  padding: 0 15px;
+  background: none;
+}
+
+.card {
+  box-shadow: 11px 11px 22px #20242a, -11px -11px 22px #30343e;
+  background: linear-gradient(145deg, #24282f, #2b2f38);
+  border-radius: 12px 12px 12px 12px;
+  margin: 25px 0;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s;
+}
+
+.cardImg {
+  overflow: hidden;
+  border-radius: 12px 12px 0 0;
+}
+
+.cardImg img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  border-bottom: none;
+}
+
+.cardBody {
+  padding: 10px 25px;
+  margin: -10px 0 0;
+  height: 350px;
+  font-family: "Poppins", sans-serif;
+  color: var(--dark-mode-text-color-soft-2);
+  border-radius: 0 0 5px 5px;
+  text-align: justify;
+  transition: 0.2s;
+}
+
+.cardTitleLink {
+  text-decoration: none;
+}
+
+.cardTitleLink:hover {
+  text-decoration: none;
+}
+
+.cardTitle {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 10px 0;
+  color: var(--dark-mode-text-color-2);
+  transition: 0.2s;
+}
+
+.cardTitleLink:hover .cardTitle {
+  color: var(--google-med-blue);
+}
+
+.cardSubtitle {
+  margin: 7px 0 14px 0;
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--dark-mode-text-color-soft-1);
+  transition: 0.2s;
+}
+
+.cardText {
+  margin-bottom: 1rem;
+  transition: 0.2s;
+  font-size: 14px;
+}
+
+.cardBtn {
+  text-decoration: none;
+  color: var(--dark-mode-text-color-soft-2);
+  background: #282c34;
+  box-shadow: 5px 5px 4px #252930, -5px -5px 4px #2b2f38;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  vertical-align: middle;
+  margin: 0 -4px;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.cardBtn:hover {
+  background: #e4eefc;
+}
+
+@media (max-width: 400px) {
+  .card {
+    height: 450px;
+  }
+  .cardTitle {
+    font-size: 18px;
+  }
+  .cardSubtitle {
+    font-size: 13px;
+  }
+  .cardText {
+    font-size: 12px;
+  }
+  .cardBody {
+    padding: 8px 16px;
+  }
+  .cardBtn {
+    padding: 0 5px;
+    font-size: 12px;
+  }
+}

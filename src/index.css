@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --google-cream-gray-shade: #e6e6dc;
+  --google-blue: #4285f4;
+  --google-red: #e94335;
+  --google-yellow: #fbbc05;
+  --google-green: #34a853;
+  --google-gray-shade-9: #333333;
+  --body-text: #555555;
+  --google-gray-shade-7: #666666;
+  --google-gray-shade-5: #999999;
+  --google-med-lite-green: #7bd0a9;
+  --google-gray-shade-10: #1a1a1a;
+  --google-med-lite-red: #ed9c98;
+  --google-dark-blue: #185abc;
+  --google-dark-red: #b31412;
+  --google-dark-yellow: #ea8600;
+  --google-gray-shade-1: #f2f2f2;
+  --google-med-lite-blue: #9fc2ff;
+  --google-gray-shade-6: #808080;
+  --google-med-lite-yellow: #ffe167;
+  --google-gray-shade-4: #b2b2b2;
+  --google-dark-green: #137333;
+  --google-light-blue: #d2e3fc;
+  --google-light-green: #ceead6;
+  --google-med-blue: #77a7fb;
+  --google-med-red: #e57368;
+  --google-med-yellow: #fbcb43;
+  --google-med-green: #34b67a;
+  --google-gray-shade-2: #e6e6e6;
+  --google-gray-shade-3: #cccccc;
+  --google-gray-shade-8: #4d4d4d;
+  --nav-inactive-color: #707070;
+  --heading-color: #3c4043;
+  --text-color: #5f6368;
+  --button-shadow-color: #b3b3b3;
+  --border-color: #dadce0;
+
+  /* DARK MODE SPECIFIC */
+  --dark-mode: #242526;
+  --dark-mode-bg-1: #282c34;
+  --dark-mode-bg-2: #222221;
+  --dark-mode-bg-3: #242526;
+  --dark-mode-bg-4: #3a3b3c;
+  --dark-mode-bg-5: #131417;
+  --dark-mode-bg-6: #191919;
+  --dark-mode-bg-7: #121212;
+  --dark-mode-bg-8: #3b3b3b;
+  --dark-mode-bg-9: #222222;
+  --dark-mode-text-color-1: #fff;
+  --dark-mode-text-color-2: #eee;
+  --dark-mode-text-color-3: #ddd;
+
+  /* dark mode neumorphism */
+  --dark-mode-neu-bg: linear-gradient(145deg, #383d42, #2f3338);
+  --dark-mode-neu-bg-1: #2d3134;
+  --dark-mode-text-color-soft-1: #b7b9bc;
+  --dark-mode-text-color-soft-2: #72777c;
+
+  /* dark mode box shadow */
+  --dark-mode-neu-box-shadow: -8px 8px 16px #282c30, 8px -8px 16px #3d444a;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", "Oxygen", sans-serif;
+}
+
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 150ms linear;
 }

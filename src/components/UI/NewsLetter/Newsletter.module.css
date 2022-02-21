@@ -1,0 +1,269 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1170px;
+  min-height: 400px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  font-family: "Google Sans", sans-serif;
+  /* background-color: rgb(241 243 244); */
+}
+
+.container > img {
+  width: 600px;
+  height: 350px;
+}
+
+.formArea {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.formArea > h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.formArea > p {
+  position: relative;
+  left: 170px;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--body-text);
+}
+
+.mainSection {
+  width: 100%;
+  height: 100%;
+  padding-top: 1rem;
+}
+
+.mainSection > input {
+  height: 70px;
+  display: inline-block;
+  width: 90%;
+  padding: 18px 165px 18px 22px;
+  margin: 8px 0;
+  border: 1px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  /* height: 70px; */
+  margin-top: 18px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.13);
+  outline: none;
+}
+
+.mainSection > input::-webkit-input-placeholder {
+  font-size: 16px;
+  line-height: 3;
+  filter: opacity(0.7);
+}
+
+/* .mainSection > input:focus {
+  border: 1px solid var(--google-yellow);
+} */
+
+.mainSection > button {
+  margin-left: -160px;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 600;
+  padding: 0px 32px;
+  border-radius: 20px;
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  background-color: var(--google-yellow);
+  color: #fff;
+  height: 40px;
+  transition: 0.3s;
+}
+
+.mainSection > button:hover {
+  background-color: var(--google-yellow);
+  box-shadow: -4px 4px 8px var(--button-shadow-color);
+  transition: 0.3s;
+}
+
+.errorEmail {
+  position: absolute;
+  margin-top: 13rem;
+  margin-left: 1rem;
+  font-size: 14px;
+  color: red;
+}
+
+@media (max-width: 1024px) {
+    /* .formArea > p {
+            padding-left: 180px;
+        } */
+  
+    .mainSection > button {
+      font-size: 16px;
+    }
+  
+    .container > img {
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 924px) {
+    .formArea > h2 {
+      font-size: 32px;
+    }
+  
+    .formArea > p {
+      left: 100px;
+    }
+  
+    .container > img {
+      height: 250px;
+    }
+  
+    .mainSection > input {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 824px) {
+    .mainSection > button {
+      font-size: 12px;
+      margin-left: -140px;
+      top: -2px;
+    }
+  
+    .mainSection > input {
+      width: 100%;
+    }
+    .mainSection {
+      padding-top: 0;
+    }
+  }
+  
+  @media (max-width: 785px) {
+    .formArea > p {
+      left: 90px;
+    }
+  
+    .container > img {
+      height: 200px;
+    }
+  
+    .mainSection > button {
+      font-size: 14px;
+      margin-left: -150px;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .container > img {
+      height: 160px;
+      width: 260px;
+      align-self: center;
+    }
+    .mainSection > input {
+      height: 60px;
+      width: 100%;
+    }
+  
+    .mainSection > button {
+      font-size: 13px;
+      margin-left: -130px;
+      right: 5px;
+    }
+  }
+  
+  @media (max-width: 599px) {
+    .container {
+      min-height: 350px;
+    }
+    .container > img {
+      display: none;
+    }
+    .formArea {
+      align-items: center;
+    }
+  
+    .formArea > h2 {
+      font-size: 38px;
+    }
+    .formArea > p {
+      left: 0;
+    }
+    .mainSection {
+      position: relative;
+      left: 25px;
+      width: fit-content;
+    }
+    .mainSection > input {
+      width: 90%;
+    }
+    .mainSection > button {
+      top: -2.5px;
+    }
+
+    .errorEmail {
+      margin-top: 11.5rem; 
+      margin-left: 100px;
+    }
+  }
+  
+  @media (max-width: 399px) {
+    .formArea > h2 {
+      font-size: 28px;
+    }
+    .formArea > p {
+      left: 0;
+      font-size: 12px;
+    }
+    .mainSection {
+      left: 24px;
+    }
+    .mainSection > input {
+      width: 90%;
+      padding-right: 110px;
+    }
+    .mainSection > button {
+      font-size: 10px;
+      margin-left: -120px;
+      height: 40px;
+    }
+    .errorEmail {
+      margin-top: 11rem; 
+      margin-left: 90px;
+    }
+  }
+  
+  @media (max-width: 350px) {
+    .container {
+      padding-left: 0;
+    }
+    .mainSection {
+      top: -10px;
+      left: 18px;
+    }
+    .mainSection > button {
+      font-size: 12px;
+      margin-left: 5rem;
+      height: 40px;
+    }
+    .mainSection > input {
+      width: 90%;
+      padding-right: 20px;
+    }
+    .errorEmail {
+      margin-top: 12rem; 
+      margin-left: 95px;
+    }
+  }
+  

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: ProductSans-Bold;
+  src: url(../../assets/fonts/ProductSans-Bold.ttf);
+}
+@font-face {
+  font-family: Product Sans;
+  src: url(../../assets/fonts/ProductSans-Regular.ttf);
+}
+
+.Logo {
+  height: 65.36px;
+  transition: 0.2s;
+  font-family: ProductSans-Bold;
+  font-weight: 700;
+}
+
+@media (max-width: 450px) {
+  .Logo {
+    height: 46.36px;
+  }
+}
+@media (max-width: 350px) {
+  .Logo {
+    height: 35.36px;
+  }
+}
+@media (max-width: 300px) {
+  .Logo {
+    height: 25.36px;
+  }
+}

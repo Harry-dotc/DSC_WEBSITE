@@ -1,0 +1,30 @@
+.Button {
+  padding: 12px 30px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  margin: 2rem 0;
+  border-radius: 4px;
+  transition: 0.2s;
+  font-size: 14px;
+  font-weight: 500;
+  transform: translateY(-1px);
+  background: #4285f4;
+}
+
+.Button i,
+.Button span {
+  vertical-align: middle;
+}
+
+.Button:hover {
+  color: #4285f4;
+  background-color: var(--dark-mode-text-color-1);
+  text-decoration: none;
+  /* box-shadow: -4px 4px 16px var(--button-shadow-color); */
+}
+
+.Button:active {
+  transform: translate(0px);
+  /* box-shadow: -2px 2px 4px #b3b3b3; */
+}

@@ -1,0 +1,38 @@
+.accordion {
+  max-width: 1170px;
+  margin: 0 auto 50px;
+  padding: 1rem;
+  font-family: "Google Sans", sans-serif;
+  border-radius: 5px;
+  box-shadow: 1px 0px 20px -10px #757575;
+  overflow: hidden;
+}
+
+.accordion:hover {
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  animation-name: slide-in;
+  animation-duration: 1.5s;
+}
+@keyframes slide-in {
+  from {
+    transform: translateY(-80%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+/* 88.2
+1228.2 */

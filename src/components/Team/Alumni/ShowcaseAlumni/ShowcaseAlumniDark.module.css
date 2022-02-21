@@ -1,0 +1,75 @@
+.ShowcaseAlumni {
+    margin-top: 70px;
+    font-family: "Google Sans", sans-serif;
+    box-shadow: inset 0 -10px 20px -10px #000000;
+    height: 300px;
+    background-image: linear-gradient(
+        315deg,
+        rgba(45, 39, 71, 0.6) 0%,
+        rgba(23, 46, 61, 0.7) 74%
+      ),
+      url("../../../../assets/images/TeamShowcaseDarkBG.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 0 5rem 0;
+  }
+  
+  .alumniHeader {
+    font-size: 56px;
+    font-weight: 400;
+    color: var(--dark-mode-text-color-1);
+    line-height: 1.2;
+    padding-bottom: 2rem;
+    transition: 0.2s;
+  }
+  
+  .alumniInfo {
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--dark-mode-text-color-2);
+    font-weight: 500;
+    padding: 0 5rem;
+    font-family: "Poppins", sans-serif;
+    transition: 0.2s;
+  }
+  
+  @media (max-width: 992px) {
+    .alumniInfo {
+      padding: 0 10px;
+      font-size: 19px;
+    }
+  }
+  @media (max-width: 550px) {
+    .alumniInfo {
+      padding: 0 10px;
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 450px) {
+    .alumniInfo {
+      padding: 0 10px;
+      font-size: 14px;
+    }
+    .alumniHeader {
+      padding-bottom: 1rem;
+      font-size: 36px;
+    }
+  }
+  
+  @media (max-width: 270px) {
+    .alumniInfo {
+      padding: 0 7px;
+      font-size: 12px;
+    }
+    .alumniHeader {
+      padding-bottom: 1rem;
+      font-size: 32px;
+    }
+}

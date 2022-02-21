@@ -1,0 +1,79 @@
+.EventsHome {
+  background: var(--dark-mode-neu-bg-1);
+  font-family: "Google Sans", "Noto Sans", "Roboto", sans-serif;
+  /* margin: 2rem 0; */
+  /* background: url("../../../assets/background/background23.png") center center; */
+  /* background-size: cover; */
+}
+
+.EventsHome h1 {
+  font-size: 52px;
+  color: var(--dark-mode-text-color-2);
+  font-family: "Google Sans", sans-serif;
+  font-weight: 400;
+  transition: 0.2s;
+}
+
+.Container {
+  max-width: 1170px;
+  text-align: center;
+  margin: 0rem auto;
+  padding: 3rem 0;
+  transition: 0.2s;
+}
+
+.Container .cardList {
+  display: flex;
+  margin-top: 2rem;
+  padding: 4rem 0;
+  justify-content: center;
+  justify-items: center;
+  transition: 0.2s;
+}
+
+.eventBtn {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 30px;
+  border-radius: 2px;
+  color: var(--dark-mode-text-color-soft-1);
+  background: linear-gradient(45deg, #363c41, #2d3237);
+  box-shadow: 5px 3px 10px #25292d, -5px -3px 10px #40474d;
+  background: var(--dark-mode-neu-bg-1);
+  transform: translateY(-1px);
+  transition: 0.2s;
+}
+
+.eventBtn:hover {
+  border-radius: 2px;
+  color: var(--dark-mode-text-color-1);
+  text-decoration: none;
+}
+
+.eventBtn:active {
+  transform: translateY(0px);
+}
+
+@media (max-width: 991px) {
+  .EventsHome h1 {
+    font-size: 52px;
+  }
+}
+
+@media (max-width: 785px) {
+  .Container .cardList {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 399px) {
+  .EventsHome h1 {
+    font-size: 36px;
+  }
+  .Container .cardList {
+    padding-top: 2rem;
+  }
+}
