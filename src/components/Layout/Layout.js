@@ -113,7 +113,7 @@ class Layout extends Component {
                       path="/alumni"
                       component={() => <Alumni theme={this.state.theme} />}
                     />
-                    <Route
+                    {/* <Route
                       path="/register"
                       component={() => <EmailVerify theme={this.state.theme} />}
                     />
@@ -124,7 +124,7 @@ class Layout extends Component {
                     <Route
                       path="/details"
                       component={() => <Contact theme={this.state.theme} />}
-                    />
+                    /> */}
                   </Switch>
                 </CSSTransition>
               </TransitionGroup>
