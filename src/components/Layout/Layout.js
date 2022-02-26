@@ -58,9 +58,9 @@ class Layout extends Component {
     }
 
     if (this.state.theme) {
-      this.setState({ styles: classes });
-    } else {
       this.setState({ styles: classesDark });
+    } else {
+      this.setState({ styles: classes });
     }
   }
 

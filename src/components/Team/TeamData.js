@@ -34,6 +34,21 @@ import Rishabh from "../../assets/images/team/Rishabh.jpeg";
 import ShivamB from "../../assets/images/team/ShivamB.jpg";
 import Tarun from "../../assets/images/team/TarunR.jpg";
 import AyushiB from "../../assets/images/team/AyushiB.jpg";
+import Yash from "../../assets/images/team/Yash.jfif";
+import Priyanshi from "../../assets/images/team/Priyanshi.jpeg";
+import Prerna from "../../assets/images/team/Prerna.jpeg";
+import Udit from "../../assets/images/team/Udit.png";
+import Arpan from "../../assets/images/team/Arpan.png";
+import Sankalp from "../../assets/images/team/Sankalp.png";
+import Abhinav from "../../assets/images/team/Abhinav.png";
+import Anurag from "../../assets/images/team/Anurag.png";
+import Kashish1 from "../../assets/images/team/Kashish1.jpeg";
+import Garima from "../../assets/images/team/Garima.png";
+import Dev from "../../assets/images/team/Dev.png";
+import Aryan from "../../assets/images/team/Aryan.png";
+import Ayushi from "../../assets/images/team/Ayushi.png";
+import Anupam from "../../assets/images/team/Anupam.png";
+import Vandya from "../../assets/images/team/Vandya.png";
 
 export const TeamData = [
   {
@@ -525,4 +540,214 @@ export const TeamData = [
       behance: "/",
     },
   },
+  {
+    id: 35,
+    year: 2,
+    domain: 1,
+    cardName: "Abhinav Verma",
+    cardDesignation: "Web Development",
+    image: Abhinav,
+    links: {
+      github: "https://github.com/abhinavv9",
+      linkedin: "https://www.linkedin.com/in/abhinav-verma-0779001aa",
+      instagram: "/",
+      behance: "/",
+    },
+  },
+  {
+    id: 36,
+    year: 2,
+    domain: 1,
+    cardName: "Anupam Kumar Gupta",
+    cardDesignation: "Web Development",
+    image: Anupam,
+    links: {
+      github: "https://github.com/Anupamgupt",
+      linkedin: "https://www.linkedin.com/in/anupam-kumar-gupta-400962222",
+      instagram: "/",
+      behance: "/",
+    },
+  },
+  {
+    id: 37,
+    year: 2,
+    domain: 5,
+    cardName: "Anurag Singh Patel",
+    cardDesignation: "UI/UX Designing",
+    image: Anurag,
+    links: {
+      github: "https://github.com/anuragsingh1409",
+      linkedin: "https://www.linkedin.com/in/anurag-singh-46534b1aa",
+      instagram: "/",
+      behance: "/",
+    },
+  },
+  {
+    id: 38,
+    year: 2,
+    domain: 1,
+    cardName: "Arpan Gupta",
+    cardDesignation: "Web Development",
+    image: Arpan,
+    links: {
+      github: "https://github.com/arpangupta1003",
+      linkedin: "https://www.linkedin.com/in/arpan-gupta-918822202/",
+      instagram: "/",
+      behance: "/",
+    },
+  },
+  {
+    id: 39,
+    year: 2,
+    domain: 1,
+    cardName: "Aryan Singhal",
+    cardDesignation: "Web Development",
+    image: Aryan,
+    links: {
+      github: "https://www.github.com/AryanSinghal1",
+      linkedin: "https://www.linkedin.com/in/aryan-singhal-477b32213",
+      instagram: "/",
+      behance: "/",
+    },
+  },
+  {
+    id: 40,
+    year: 2,
+    domain: 2,
+    cardName: "Ayushi Gautam",
+    cardDesignation: "Machine Learning",
+    image: Ayushi,
+    links: {
+      github: "https://github.com/AyuavnGautam",
+      linkedin: "https://www.linkedin.com/in/ayushi-gautam-2b242a230",
+      instagram: "/",
+      behance: "/",
+    },
+  },
+  {
+    id: 41,
+    year: 2,
+    domain: 1,
+    cardName: "Dev Gupta",
+    cardDesignation: "Web Development",
+    image: Dev,
+    links: {
+      github: "https://github.com/devgupta777",
+      linkedin: "https://www.linkedin.com/in/dev-gupta-0b0837221",
+      instagram: "/",
+      behance: "/",
+    },
+  },
+  {
+    id: 42,
+    year: 2,
+    domain: 2,
+    cardName: "Garima Saroj",
+    cardDesignation: "Machine Learning",
+    image: Garima,
+    links: {
+      github: "https://github.com/AndroGari",
+      linkedin: "https://www.linkedin.com/in/garimasaroj",
+      instagram: "/",
+      behance: "/",
+    },
+  },
+  {
+    id: 43,
+    year: 2,
+    domain: 4,
+    cardName: "Kashish Chandani",
+    cardDesignation: "Managerial",
+    image: Kashish1,
+    links: {
+      github: "https://github.com/Kashish-29",
+      linkedin: "http://linkedin.com/in/kashish-chandani-b2b922214",
+      instagram: "/",
+      behance: "/",
+    },
+  },
+  {
+    id: 44,
+    year: 2,
+    domain: 3,
+    cardName: "Prerna Gupta",
+    cardDesignation: "App Development",
+    image: Prerna,
+    links: {
+      github: "/",
+      linkedin: "https://www.linkedin.com/in/prerna-gupta-608b5b221",
+      instagram: "/",
+      behance: "/",
+    },
+  },
+  {
+    id: 45,
+    year: 2,
+    domain: 2,
+    cardName: "Priyanshi Kushwaha",
+    cardDesignation: "Machine Learning",
+    image: Priyanshi,
+    links: {
+      github: "https://github.com/kpriyanshi02",
+      linkedin: "https://www.linkedin.com/in/priyanshi-kushwaha-59a659219/",
+      instagram: "/",
+      behance: "/",
+    },
+  },  
+  {
+    id: 46,
+    year: 2,
+    domain: 3,
+    cardName: "Sankalp Srivastava",
+    cardDesignation: "App Development",
+    image: Sankalp,
+    links: {
+      github: "https://github.com/sank4lp55",
+      linkedin: "https://www.linkedin.com/in/sankalp-srivastava-03a73b22b/",
+      instagram: "/",
+      behance: "/",
+    },
+  },
+  {
+    id: 47,
+    year: 2,
+    domain: 3,
+    cardName: "Udit Bansal",
+    cardDesignation: "App Development",
+    image: Udit,
+    links: {
+      github: "https://github.com/25kudit/",
+      linkedin: "/",
+      instagram: "/",
+      behance: "/",
+    },
+  },
+  {
+    id: 48,
+    year: 2,
+    domain: 4,
+    cardName: "Vandya Sharma",
+    cardDesignation: "Managerial",
+    image: Vandya,
+    links: {
+      github: "/",
+      linkedin: "https://www.linkedin.com/in/vandya-sharma-b99a8b200",
+      instagram: "/",
+      behance: "/",
+    },
+  },
+  {
+    id: 49,
+    year: 2,
+    domain: 1,
+    cardName: "Yash Khare",
+    cardDesignation: "Web Development",
+    image: Yash,
+    links: {
+      github: "https://github.com/khareyash05",
+      linkedin: "https://www.linkedin.com/in/yash-khare-0978821aa/",
+      instagram: "/",
+      behance: "/",
+    },
+  },    
 ];
